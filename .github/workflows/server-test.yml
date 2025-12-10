@@ -38,4 +38,6 @@ jobs:
           ACCESS_TOKEN_EXPIRES: ${{ vars.ACCESS_TOKEN_EXPIRES }}
           REFRESH_TOKEN_EXPIRES: ${{ vars.REFRESH_TOKEN_EXPIRES }}
           NODE_ENV: ${{ vars.NODE_ENV }}
+          clientID: ${{ secrets.CLIENTID }}
+          clientSecret: ${{ secrets.CLIENTSECRET }}
         working-directory: ./server
