@@ -77,7 +77,7 @@ describe("Admin Routes (Cookie-Based Auth)", () => {
             { fullName: "Milliastra Wonderland", email: "milliastra@gmail.com", role: "citizen" },
             { fullName: "Michael Scott", email: "michael@dundermifflin.com", password: citizenHashedPassword, role: "citizen" },
             { fullName: "Citizen One", email: "c1@dundermifflin.com", role: "citizen" },
-            { fullName: "Officer One", email: "o1@test.com", role: "officer" },
+            { fullName: "Officer One", email: "o1@test.com", role: "officer", department: 'customer_support', subcity: 'Bole' },
             { fullName: "Admin One", email: "a1@test.com", role: "admin" }
         ]);
 

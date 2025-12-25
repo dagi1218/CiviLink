@@ -39,6 +39,8 @@ const officerUser = {
   email: "officer@example.com",
   password: "Test@1234",
   role: "officer",
+  department: "approver",
+  subcity: "Bole",
 };
 const adminUser = {
   fullName: "Test Admin",
