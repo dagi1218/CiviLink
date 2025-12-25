@@ -4,6 +4,11 @@ import "../config/passport_setup.js";
 import connectDB from "../config/db.js";
 import cookieParser from "cookie-parser";
 
+// Ensure discriminators are registered early
+import "./models/Citizen.js";
+import "./models/Admin.js";
+import "./models/Officer.js";
+
 //Routes
 import authRoutes from "./routes/auth.js";
 import tinRoutes from "./routes/tin.js";
