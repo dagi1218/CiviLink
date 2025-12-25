@@ -1,5 +1,5 @@
-import User from "../../models/User";
-import Officer from "../../models/Officer";
+import User from "../../models/User.js";
+import Officer from "../../models/Officer.js";
 import mongoose from "mongoose";
 
 const promoteToOfficer = async (userId, promotionData, adminId) => {
