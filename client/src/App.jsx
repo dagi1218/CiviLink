@@ -1,8 +1,18 @@
-import React from 'react'
 
-const App = () => {
+import { BrowserRouter } from "react-router-dom"
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import AppRoutes from "./routes/AppRoutes"
+import './App.css'
+
+function App() {
+  
   return (
-    <div>App</div>
+    
+    <BrowserRouter>
+      <div className="App">
+         <AppRoutes/>
+      </div>
+    </BrowserRouter>
   )
 }
 
